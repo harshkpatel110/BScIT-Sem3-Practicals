@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+//#include <conio.h>
 #include <malloc.h>
 void main()
 {
@@ -10,7 +10,7 @@ void main()
     struct node *new_node,*ptr,*ptr1,*begin=NULL;
     int item, item1;
     int option;
-    clrscr();
+    //clrscr();
     //Creating the first node in the Linked List
     new_node=(struct node *)malloc(sizeof(struct node));
     printf("\nEnter the element : ");
@@ -55,5 +55,5 @@ void main()
         printf("\t%d",ptr->info);
         ptr=ptr->next;
     }
-    getch();
+    //getch();
 }
