@@ -1,4 +1,5 @@
-def squareArea(x):
-    return x*x
-def circleArea(x):
-    return 3.14*x*x
+import math
+def squareArea(side):
+    return side*side
+def circleArea(radius):
+    return math.pi*radius*radius
