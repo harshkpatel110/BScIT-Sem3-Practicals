@@ -1,0 +1,10 @@
+import numpy as np
+arr1=np.array([10,20,30,40,50])
+arr2=np.array([2,4,5,8,10])
+print("Array 1:\t",arr1)
+print("Array 2:\t",arr2)
+print("\nAddition:\t",arr1+arr2)
+print("Subtraction:\t",arr1-arr2)
+print("Multiplication:\t",arr1*arr2)
+print("Division:\t",arr1/arr2)
+print("Modulus:\t",arr1%arr2)
