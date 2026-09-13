@@ -1,10 +1,11 @@
-A=[10,5,-1,0,7]
+print("Linear Search")
+A=[73,18,10,5,21,32,74]
+print("A =",A)
 n=len(A)
-data_mil_gaya=False
-data=(int(input("Aapko kya search karna hai?")))
-for i in range(1,n):
-    if A[i]==data:
-        print("The element is present in the array at the position",i)
-        data_mil_gaya=True
-if data_mil_gaya==False:
-    print("The element is not present in the array.")
+data=int(input("Enter the element to be searched: "))
+for i in range(n):
+    if data==A[i]:
+        print(f"The element {data} is present in the array at position {i}.")
+        break
+else:
+    print(f"The element {data} is not present in the array.")

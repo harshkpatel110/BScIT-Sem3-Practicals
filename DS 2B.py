@@ -1,22 +1,20 @@
-A=[-1,0,5,7,10]
+print("Binary Search")
+A=[10,20,25,51,75,100,250,500]
+print("A=",A)
+data=int(input("Enter the element to be searched: "))
 n=len(A)
 start=0
 end=n-1
-data_mil_gaya=False
-print("A=",A)
-data=(int(input("Aapko kya search karna hai?")))
+print("Start\tEnd\tMid")
 while start<=end:
-    mid=int((start+end)/2)
-    print("s=",start)
-    print("e=",end)
-    print("mid=",mid)
+    mid=(start+end)//2
+    print(f"{start}\t{end}\t{mid}")
     if data==A[mid]:
-        print("The element is present in the array at the position",mid)
-        data_mil_gaya=True
-        exit
-    if data>A[mid]:
-        start=mid+1
-    else:
+        print(f"The element {data} is present in the array at position {mid} in the array.")
+        break
+    elif data<A[mid]:
         end=mid-1
-if data_mil_gaya==False:
-    print("The element is not present in the array.")
+    else:
+        start=mid+1
+else:
+    print(f"The element {data} is not present in the array.")
