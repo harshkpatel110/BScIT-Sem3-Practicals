@@ -13,7 +13,7 @@ for i in range(n):
         t[i]=x
     else:
         root=0
-        while t[root]!= 0:
+        while t[root]!=0:
             if x<t[root]:
                 root=(2*root)+1
             elif x>=t[root]:

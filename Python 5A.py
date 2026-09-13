@@ -15,10 +15,10 @@ def palindrome(value):
     return text==text[::-1]
 num=int(input("Enter a number: "))
 if armstrong(num):
-    print(num, "is an Armstrong Number.")
+    print(f"The number {num} is an Armstrong Number.")
 else:
-    print(num, "is not an Armstrong Number.")
+    print(f"The number {num} is not an Armstrong Number.")
 if palindrome(num):
-    print(num, "is a Palindrome.")
+    print(f"The number {num} is a Palindrome.")
 else:
-    print(num, "is not a Palindrome.")
+    print(f"The number {num} is not a Palindrome.")

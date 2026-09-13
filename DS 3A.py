@@ -1,14 +1,19 @@
-A=[0,0,0,0,0,0,0,0,0,0]
-print("A", A)
-m=10
-for i in range (5):
-    n=int(input("Enter any number: "))
-    r=n%m
-    p=0
-    print(r)
-    while A[r]!=0:
-        print("Collision")
-        p+=1
-        r=(n%m+p)%m
-    A[r]=n
-    print("A", A)
+print("Hashing Techniques : Division Remainder Method")
+m=int(input("Size of the hash table : "))
+n=int(input("Number of Keys : "))
+h=[]
+for i in range(m):
+    h.append(0)
+print("Enter elements")
+for i in range(n):
+    key=int(input())
+    rel_add=key%m
+    if h[rel_add]==0:
+        h[rel_add]=key
+        print("Relative Address =",rel_add)
+    else:
+        print("Relative Address =",rel_add,"(Collision Case)")
+print("\nHash Table")
+print("Index\tKey")
+for i in range(m):
+    print(i,"\t",h[i])

@@ -31,4 +31,4 @@ Module 2:
     a. Linear search
     b. Binary search (on a sorted array)
 10.Combined Application
-    a. Design a simple program that uses multiple data structures .
+    a. Design a simple program that uses multiple data structures.

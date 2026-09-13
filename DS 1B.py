@@ -10,4 +10,4 @@ for i in range(1,n):
         A[k+1]=A[k]
         k=k-1
     A[k+1]=temp
-    print("\tA:",A)
+    print("\tA :",A)

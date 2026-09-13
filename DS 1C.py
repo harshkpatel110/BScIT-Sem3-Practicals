@@ -13,4 +13,4 @@ for i in range(n-1):
             flag=1
     if flag==1:
         A[i],A[pos]=A[pos],A[i]
-    print("\tA:",A)
+    print("\tA :",A)

@@ -56,4 +56,5 @@ void main()
         ptr=ptr->next;
     }
     //getch();
+    return 0;
 }

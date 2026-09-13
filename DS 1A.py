@@ -7,4 +7,4 @@ for p in range(1,n):
     for i in range(0,n-p):
         if A[i]>A[i+1]:
             A[i],A[i+1]=A[i+1],A[i]
-        print("\tA:",A)
+        print("\tA :",A)

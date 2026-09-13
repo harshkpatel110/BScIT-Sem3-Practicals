@@ -1,7 +1,7 @@
 print("Binary Search")
 A=[10,20,25,51,75,100,250,500]
-print("A=",A)
-data=int(input("Enter the element to be searched: "))
+print("A =",A)
+data=int(input("Enter the element to be searched : "))
 n=len(A)
 start=0
 end=n-1

@@ -1,12 +1,11 @@
-print("Hashing Ttechniques with Seaparate Chaining as a Collision Resolution Technique(Table Size 5)")
+print("Hashing Techniques with Separate Chaining as a collision resolution technique (Table Size is 5)")
 h0=[]
 h1=[]
 h2=[]
 h3=[]
 h4=[]
-
-n=int(input("Number of Keys: "))
-print("Enter Elements: ")
+n=int(input("Number of Keys : "))
+print("Enter Elements : ")
 for i in range(n):
     key=int(input())
     rel_add=key%5
@@ -21,6 +20,7 @@ for i in range(n):
     elif rel_add==4:
         h4.append(key)
 print("\nHash Table")
+#print("Index\tKey")
 print(h0)
 print(h1)
 print(h2)
