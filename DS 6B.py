@@ -43,6 +43,7 @@ def priority(elt) :
 #MAIN Program
 exp=input("Enter the infix Expression : ")
 exp="("+exp+")"
+print("Expression : ",exp)
 n=len(exp)
 s=[None]*n
 top=-1
