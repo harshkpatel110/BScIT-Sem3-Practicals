@@ -1,0 +1,5 @@
+string=input("Enter a string: ")
+chars=len(string)
+words=len(string.split())
+print(f"The number of characters in the string is {chars}.")
+print(f"The number of words in the string is {words}.")
