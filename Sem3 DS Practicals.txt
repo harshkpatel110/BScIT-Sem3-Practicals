@@ -1,0 +1,34 @@
+Module 2:
+1. Array Operations: Write a program to implement basic array operations:
+    a. Insert an element at a specific position in an array.
+    b. Delete an element from a specific position in an array.
+    c. Search for an element in an array (linear search).
+2. Linked List Manipulation: Write a program to:
+    a. Create a singly linked list.
+    b. Insert a node at the beginning, end, and at a given position in a linked list.
+    c. Delete a node from a given position in a linked list.
+3. Stack Application: Write a program to:
+    a. Implement a stack using an array.
+    b. Convert an infix expression to postfix notation using a stack.
+4. Queue Application: Write a program to:
+    a. Implement a queue using an array.
+    b. Simulate a simple queuing system (e.g., customer service queue).
+5.Binary Search Tree: Write a program to:
+    a. Create a binary search tree.
+    b. Insert nodes into a binary search tree.
+    c. Search for a node in a binary search tree.
+6. Tree Traversal: Write a program to:
+    a. Implement pre-order,
+    b. in-order, c. Post-order traversal of a binary tree.
+7.Hash Table: Write a program to:
+    a. Implement a hash table with separate chaining for collision handling.
+    b. Store and retrieve data from the hash table.
+8.Sorting Algorithms: Write programs to implement and compare the following sorting algorithms:
+    a. Bubble sort
+    b. Insertion sort
+    c. Selection sort
+9.Searching Algorithms: Write programs to implement and compare:
+    a. Linear search
+    b. Binary search (on a sorted array)
+10.Combined Application
+    a. Design a simple program that uses multiple data structures .

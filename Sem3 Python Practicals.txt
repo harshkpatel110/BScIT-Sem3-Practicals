@@ -1,0 +1,45 @@
+Module 1:
+1. Write programs for the following:
+    a. Write a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old. 
+    b. Write a program to accept a number from the user and depending on whether the number is even or odd, print out an appropriate message to the user. 
+    c. Write a program to accept the SGPI from the user and print corresponding grade based on the following:
+        SGPI            Grade
+        9.00 – 10.00    O
+        8.00 – 8.99     A+
+        7.00 – 7.99     A
+        6.00 – 6.99     B+
+        5.50 – 5.99     B
+        5.00 – 5.49     C
+        4.00 – 4.99     P
+        Below 4         F
+2. Write programs for the following:
+    a. Write a program to generate the Fibonacci series.
+    b. Write a program to accept a number from the user display sum of its digits.
+3. Write programs for the following:
+    a. Write a program to perform basic operations, indexing and slicing on arrays. 
+    b. Write a program to implement mathematical functions on arrays.
+    c. Write a program to perform array aliasing and copying.
+4. Write programs for the following:
+    a. Write a program to perform slicing, basic and advanced indexing on NumPy arrays.
+    b. Write a program to analyze dimensions and attributes of arrays.
+5. Write programs for the following:
+    a. Write a function to check the input value is Armstrong and also write the function for Palindrome. 
+    b. Write a recursive function to print the factorial for a given number.
+    c. Write a lambda function that checks whether a given string starts with a specific character.
+6. Write programs for the following:
+    a. Write a program to compute number of characters and words in a string.
+    b. Create a file geometry.py to calculate base areas for shapes square and circle. In another file, write a function pointyShapeVolume(x, y, squareBase) that calculates the volume of a square pyramid if squareBase is True and of a right circular cone if squareBase is False. x is the length of an edge on a square if squareBase is True and the radius of a circle when squareBase is False. y is the height of the object. First use squareBase to distinguish the cases. Use the circleArea and squareArea from the geometry module to calculate the base areas. 
+7. Write programs for the following:
+    a. Write a program that takes two lists and returns True if they have at least one common member. 
+    b. Write a Python script to sort (ascending and descending) a dictionary by value.
+8. Write programs for the following:
+    a. Write a program to accept and pass radius to a function that returns area and circumference (using tuple).
+    b. Write a program to perform basic file operations on text files and binary files.
+    c. Write a Python program to read last n lines of a file. 
+9. Write programs for the following:
+    a. Write a program to count the occurrences of a specific word in a file using regular expressions.
+    b. Write a program to extract all hyperlinks (<a href="...">) from an HTML file.
+10. Write programs for the following:
+    a. Write a program that compares two dates (in DD/MM/YYYY format) and prints which one is earlier.
+    b. Write a program to measure program execution time.
+    c. Write a program using the calendar module to print the weekday of the first day of a given month and year.   
